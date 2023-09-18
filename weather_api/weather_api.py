@@ -13,6 +13,7 @@ def get_location(zip_code: str, country_code: str = None, api_key=None) -> list:
     Args:
         zip_code (str) : Zip code
         country_code (str): Country Code (Optional)
+        api_key (str): A valid API key for the weather api.
     Returns:
         Location data (dict)
     """
@@ -35,6 +36,7 @@ def get_weather_forecast(lat:str = None, lon: str = None, units: str = 'imperial
         lat (str) : latitude coordinates
         lon (str):  longitude coordinates
         units(str): Display type. Default is 'imperial' (Optional)
+        api_key (str): A valid API key for the weather api.
     Returns:
         Weather data (dict)
     """

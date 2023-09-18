@@ -5,5 +5,5 @@ Provides functions to get location data from zip code and get weather forecast f
 This package requires that you have a valid API key to provide the Weather API. 
 An API key can be obtained by visiting this site. https://openweathermap.org/current
 
-Once you have obtained a valid API key you must create a file call `config.py` and place the following line inside the file.
-`WEATHER_API_KEY = '<Your API KEY'>`
+This key must be passed as a parameter to the functions.
+See function definitions in weather_api.py

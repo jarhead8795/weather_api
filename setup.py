@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(name='weather_api_assignment',
-                 version='0.0.1',
+                 version='0.0.3',
                  author = 'Patrick Morton',
                  author_email = 'jarhead8795@gmail.com',
                  description = 'Location and weather forecast package',
